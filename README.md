@@ -17,6 +17,7 @@ To get thermal infrared videos, we mainly consider the night scenes at distance,
 NIR(Near Infrared) cameras.
 ![dataset](https://github.com/LannCX/InfDetNet/blob/main/asset/dataset.jpg)
 > Please contact *gaocq@cqupt.edu.cn* for the authority of the InfDet dataset.
+> If you have any techinical issue, feel free to contact *lann9601@foxmail.com*.
 
 ## Requirements
 Our code has been tested on Ubuntu16.04 using python3.6, Pytorch version 1.4.0 with four NVIDIA Tesla V100 cards.
