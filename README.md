@@ -9,13 +9,13 @@ All these modules are trained in an end-to-end manner.
 Experimental results show that our proposed method surpasses state-of-the-art temporal action detection methods designed for visible videos, and it also achieves the best performance compared with other infrared action recognition methods on both InfAR and Infrared-Visible datasets.
 
 ## Approach
-![overview](asset/overview.jpg)
+![overview](https://github.com/LannCX/InfDetNet/blob/main/asset/overview.jpg)
 
 ## Dataset
 We collect a new infrared dataset for temporal action detection in the dark, named InfDet. 
 To get thermal infrared videos, we mainly consider the night scenes at distance, which is intractable both for RGB and ordinary
 NIR(Near Infrared) cameras.
-![dataset](asset/dataset.jpg)
+![dataset](https://github.com/LannCX/InfDetNet/blob/main/asset/dataset.jpg)
 > Please contact *gaocq@cqupt.edu.cn* for the authority of the InfDet dataset.
 
 ## Requirements
