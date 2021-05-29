@@ -53,7 +53,7 @@ doi={10.1109/TMM.2021.3050069}
 }
 ```
 
-## Aknowdlegement
+## Acknowledgement
 We thank the following nice repos used in our code:
 - [https://github.com/piergiaj/tgm-icml19](https://github.com/piergiaj/tgm-icml19)
 - [https://github.com/wzmsltw/pytorch-OpCounter](https://github.com/wzmsltw/pytorch-OpCounter)
