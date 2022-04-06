@@ -1,6 +1,6 @@
 ## Update:
 
-- We have uploaded the $InfDet$ dataset on [Baiduyun](https://pan.baidu.com/s/1mgteavY9-TmGwacMNaPTXg) (password: 1111)
+- We have uploaded the *InfDet* dataset on [Baiduyun](https://pan.baidu.com/s/1mgteavY9-TmGwacMNaPTXg) (password: 1111)
 - To train our model on your custom dataset, please follow the [Training on Custom Dataset Instruction](https://github.com/LannCX/InfDetNet/blob/main/asset/Training-on-custom-dataset.pdf).
 
 The implementation of paper [*Infrared Action Detection in the Dark via Cross-Attention Mechanism*](https://ieeexplore.ieee.org/abstract/document/9316950).
@@ -28,11 +28,10 @@ NIR(Near Infrared) cameras.
 Our code has been tested on Ubuntu16.04 using python3.6, Pytorch version 1.4.0 with four NVIDIA Tesla V100 cards.
 
 ## Run
-
 Please download the pretrained I3D model from [this repo](https://github.com/piergiaj/pytorch-i3d/tree/master/models), then create a "models/" folder  and put these weights into this folder before training.
 
 
-Besides, modify the dataset directory in your machine correctly, e.g., "rgb_root","flow_root", and "split_file".
+Besides, modify the dataset directory in your machine correctly, e.g., "rgb_root","flow_root", "split_file" and "-rgb_model_file", "-flow_model_file".
 ```
 # Train
 python train.py -train True
