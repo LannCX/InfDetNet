@@ -1,3 +1,8 @@
+## Update:
+
+- We have uploaded the $InfDet$ dataset on [Baiduyun](https://pan.baidu.com/s/1mgteavY9-TmGwacMNaPTXg) (password: 1111)
+- To train our model on your custom dataset, please follow the [Training on Custom Dataset Instruction](https://github.com/LannCX/InfDetNet/blob/main/asset/Training-on-custom-dataset.pdf).
+
 The implementation of paper [*Infrared Action Detection in the Dark via Cross-Attention Mechanism*](https://ieeexplore.ieee.org/abstract/document/9316950).
 
 We investigatethe temporal action detection problem in the dark by using infrared videos. 
@@ -24,8 +29,11 @@ Our code has been tested on Ubuntu16.04 using python3.6, Pytorch version 1.4.0 w
 
 ## Run
 
+Please download the pretrained I3D model from [this repo](https://github.com/piergiaj/pytorch-i3d/tree/master/models), then create a "models/" folder  and put these weights into this folder before training.
+
+
+Besides, modify the dataset directory in your machine correctly, e.g., "rgb_root","flow_root", and "split_file".
 ```
-# Plaese modify the dataset directory in your machine correctly.
 # Train
 python train.py -train True
 
@@ -44,12 +52,13 @@ matlab TH14evalDet('sel_i3d.txt','annotation','test',0.5)
 ## Citation
 If you find our code useful in your work, please consider using the following citation:
 ```
-@ARTICLE{chen2021infdet,  
-title={Infrared Action Detection in the Dark via Cross-Stream Attention Mechanism},
-author={Xu Chen and Chenqiang Gao and Chaoyu Li and Yi Yang and Deyu Meng},
-year={2021},
-journal={IEEE Transactions on Multimedia},
-doi={10.1109/TMM.2021.3050069}
+@article{chen2021infdet,
+    title={Infrared Action Detection in the Dark via Cross-Stream Attention Mechanism},
+    author={Xu Chen and Chenqiang Gao and Chaoyu Li and Yi Yang and Deyu Meng},
+    journal={IEEE Transactions on Multimedia},volume={24},
+    pages={288--300},
+    year={2022},
+    doi={10.1109/TMM.2021.3050069}
 }
 ```
 
@@ -57,3 +66,4 @@ doi={10.1109/TMM.2021.3050069}
 We thank the following nice repos used in our code:
 - [https://github.com/piergiaj/tgm-icml19](https://github.com/piergiaj/tgm-icml19)
 - [https://github.com/wzmsltw/pytorch-OpCounter](https://github.com/wzmsltw/pytorch-OpCounter)
+- [https://github.com/piergiaj/pytorch-i3d](https://github.com/piergiaj/pytorch-i3d)
