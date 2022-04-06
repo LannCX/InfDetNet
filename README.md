@@ -18,11 +18,11 @@ Experimental results show that our proposed method surpasses state-of-the-art te
 
 ## Dataset
 We collect a new infrared dataset for temporal action detection in the dark, named InfDet. 
-To get thermal infrared videos, we mainly consider the night scenes at distance, which is intractable both for RGB and ordinary
+To get thermal infrared videos, we mainly consider the night scene at distance, which is intractable both for RGB and ordinary
 NIR(Near Infrared) cameras.
 ![dataset](https://github.com/LannCX/InfDetNet/blob/main/asset/dataset.jpg)
 > Please contact *gaocq@cqupt.edu.cn* for the authority of the InfDet dataset.
-> If you have any techinical issue, feel free to contact *lann9601@foxmail.com*.
+> If you have any techinical issues, feel free to contact *lann9601@foxmail.com*.
 
 ## Requirements
 Our code has been tested on Ubuntu16.04 using python3.6, Pytorch version 1.4.0 with four NVIDIA Tesla V100 cards.
@@ -62,8 +62,8 @@ If you find our code useful in your work, please consider using the following ci
 }
 ```
 
-## Aknowdlegement
-We thank the following nice repos used in our code:
+## Acknowledgement
+The following repos are used in our code, we thank the authors for their nice works:
 - [https://github.com/piergiaj/tgm-icml19](https://github.com/piergiaj/tgm-icml19)
 - [https://github.com/wzmsltw/pytorch-OpCounter](https://github.com/wzmsltw/pytorch-OpCounter)
 - [https://github.com/piergiaj/pytorch-i3d](https://github.com/piergiaj/pytorch-i3d)
