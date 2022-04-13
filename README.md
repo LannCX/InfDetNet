@@ -1,6 +1,6 @@
 ## Update:
 
-- We have uploaded the *InfDet* dataset on [Baiduyun](https://pan.baidu.com/s/1mgteavY9-TmGwacMNaPTXg) (password: 1111) and [Google Drive](https://drive.google.com/drive/folders/16ktM7-iKrcOSka_ZrfXyIiUBTw9qgoHK)
+- We have uploaded the *InfDet* dataset on [Baiduyun](https://pan.baidu.com/s/1mgteavY9-TmGwacMNaPTXg) (password: 1111) and [Google Drive](https://drive.google.com/drive/folders/16ktM7-iKrcOSka_ZrfXyIiUBTw9qgoHK?usp=sharing)
 - To train our model on your custom dataset, please follow the [Training on Custom Dataset Instruction](https://github.com/LannCX/InfDetNet/blob/main/asset/Training-on-custom-dataset.pdf).
 
 The implementation of paper [*Infrared Action Detection in the Dark via Cross-Attention Mechanism*](https://ieeexplore.ieee.org/abstract/document/9316950).
